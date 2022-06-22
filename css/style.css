@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;   
+    font-family: 'Ubuntu', sans-serif;
+}
+.logoNav{
+    width: 60%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.ContenedorLinks a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+.ContenedorLinks a:hover{
+
+    border-bottom: 1px solid #08F0AC;
+}
+.SeccionHome{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    flex-direction: column-reverse;
+
+}
+.BotonPrincipal{
+    background-image: linear-gradient(100deg, #00FCA8, #1CDAFF 100%);
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
