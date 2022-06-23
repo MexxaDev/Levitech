@@ -71,7 +71,7 @@ nav{
     line-height: 25px;
     float: left;
     background: linear-gradient(150deg, #39ef7398, #1CDAFF 100%);
-    
+
     text-align: center;
 
 }
@@ -102,10 +102,32 @@ button {
   }
 
   .SeccionHome{
-    margin-bottom: 15%;
+    margin-bottom: 25%;
   }
 
 
   .container{
     position: absolute;
+  }
+
+
+  @media (max-width: 500px) {
+    .SeccionHome{
+        margin-bottom: 35%;
+      }
+
+    .cnt{
+        width: 350px;
+        box-sizing: border-box;
+        padding: 2em;
+        font-family: Ubuntu;
+        border-radius: 25px;
+        color: white;
+        line-height: 25px;
+        float: left;
+        background: linear-gradient(150deg, #39ef7398, #1CDAFF 100%);
+        text-align: center;
+        margin: 10px;
+    }
+
   }
