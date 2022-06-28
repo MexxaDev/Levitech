@@ -121,7 +121,7 @@ button {
 
 @media (max-width: 500px) {
 .SeccionHome{
-        margin-bottom: 35%;
+        margin-bottom: 45%;
     }
 
 .cnt{
@@ -138,4 +138,21 @@ button {
         margin: 10px;
     }
 
-  }
+    .BotonPrincipal{
+        background-image: linear-gradient(100deg, #00FCA8, #1CDAFF 100%);
+        text-transform: uppercase;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        color: white;
+        border-radius: 50px;
+        padding: 1em;
+        border: none;
+        font-weight: bold;
+        margin-top: 35em;
+        text-decoration: none;
+        z-index: 3;
+        
+    }
+
+}
