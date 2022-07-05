@@ -24,11 +24,11 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.566);
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 3;
+    z-index: 4;
 }
 .ContenedorLinks a{
     color: white;
@@ -66,7 +66,7 @@ nav{
     padding: 1em;
     border: none;
     font-weight: bold;
-    margin-top: 50em;
+    margin-top: 40em;
     text-decoration: none;
     z-index: 3;
     
@@ -84,6 +84,7 @@ nav{
     text-align: center;
     box-shadow: 0px 8px 1px 1px rgba(165, 165, 165, 0.08);
     z-index: 3;
+    margin: 10px;
 }
 .cnt:hover{
     background: linear-gradient(150deg, #39ef739a, #1cd9ff98 100%);
@@ -120,6 +121,20 @@ button {
 .container{
     position: fixed;
   }
+.Connt1{
+    background-image: url(/img/sat.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 30px;
+    width: 15rem;
+    height: 15rem;
+
+    align-items: center;
+    text-align: center;
+
+}
+
+
 
 
 @media (max-width: 500px) {
