@@ -166,6 +166,7 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 15rem;
+    margin-top: 13rem;
 }
 .ContainerCardHosting{
     display: flex;
@@ -233,5 +234,13 @@ p{
         z-index: 3;
         
     }
-
+    .hostingimg{
+        width: 10rem;
+    }
+    .th{
+        margin-top: 1em;
+    }
+    .thh{
+        margin-top: 3rem;
+    }
 }
