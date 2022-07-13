@@ -109,7 +109,7 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 
 }
 
@@ -122,21 +122,52 @@ button {
     position: fixed;
   }
 .Connt1{
-    background-image: url(/img/sat.jpg);
+    background-image: url(/img/face.png);
     background-repeat: no-repeat;
     display: inline-block;
     border-radius: 30px;
     width: 15rem;
     height: 15rem;
-
+    background-size: contain;
     align-items: center;
     text-align: center;
 
 }
+.Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.IconSkill{
+    width: 6rem;
+}
+.ContainerSkills{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+}
 
-
-
+h2{
+    color: white;
+}
+.btnwhsp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    z-index: 50;
+    cursor: pointer;
+}
+.btnwhsp:hover{
+    width: 5rem;
+}
 @media (max-width: 500px) {
 .SeccionHome{
         margin-bottom: 45%;
