@@ -154,6 +154,24 @@ button {
 h2{
     color: white;
 }
+.pHosting{
+    width: 10rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.ContenedorServicios{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15rem;
+}
+.ContainerCardHosting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .btnwhsp{
     position: fixed;
     bottom: 0;
@@ -168,6 +186,18 @@ h2{
 .btnwhsp:hover{
     width: 5rem;
 }
+
+.hostingimg{
+    width: 18rem;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+
+
 @media (max-width: 500px) {
 .SeccionHome{
         margin-bottom: 45%;
